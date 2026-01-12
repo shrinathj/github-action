@@ -7,7 +7,7 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - name: go to root directory
-          run: cd /root
+          run: pwd
 
         - name: list the files
           run: ls -lrt
