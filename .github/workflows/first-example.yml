@@ -1,0 +1,13 @@
+name: My first workflow
+
+on: push
+
+jobs:
+    first_job:
+        runs-on: ubuntu-latest
+        steps:
+        - name: go to root directory
+          run: cd /root
+
+        - name: list the files
+          run: ls -lrt
