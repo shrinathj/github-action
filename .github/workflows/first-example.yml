@@ -8,5 +8,7 @@ jobs:
         steps:
         - uses: actions/checkout@v6
         - name: Executing shell scripts
-          run: ./shall.sh
+          run: |
+            chmod +x shall.sh
+            ./shall.sh
       
