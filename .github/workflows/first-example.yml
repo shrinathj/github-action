@@ -7,8 +7,6 @@ jobs:
         runs-on: ubuntu-latest
         steps:
         - uses: actions/checkout@v6
-        - name: go to root directory
-          run: pwd
-
-        - name: list the files
-          run: ls -lrt
+        - name: Executing shell scripts
+          run: ./shall.sh
+      
